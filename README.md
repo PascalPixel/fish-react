@@ -1,7 +1,7 @@
 # Basic Firebase React App
 
 1. Sign up for a firebase account: https://firebase.google.com/
-2. Make a file in the root called `.env.local`
+2. Make a file in the root called `.env`
 3. Add this to that file and put the appropriate data in there:
 
 ```
