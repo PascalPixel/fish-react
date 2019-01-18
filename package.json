@@ -1,0 +1,35 @@
+{
+  "name": "fishreactpascal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@firebase/app-types": "^0.3.2",
+    "email-validator": "^2.0.4",
+    "firebase": "^5.7.0",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "re-base": "^4.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-flexbox-grid": "^2.1.2",
+    "react-markdown": "^4.0.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "react-tag-input": "^6.1.0",
+    "styled-components": "^4.1.2",
+    "upath": "1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "firebase deploy",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

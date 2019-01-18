@@ -1,0 +1,112 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  line-height: 1.45;
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+code {
+  font-family: 'Hack', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0055aa;
+  text-decoration: underline;
+}
+
+input,
+button,
+a.button,
+textarea,
+.ReactTags__wrap {
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #000;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  margin: 0.5rem 0rem;
+  border-radius: 0.4rem;
+}
+
+input,
+textarea,
+.ReactTags__wrap {
+  width: calc(100% - 1.2rem - 0.2rem);
+  background-color: #f9f9f9;
+}
+
+button,
+a.button {
+  background-color: #ddd;
+  color: #222;
+  border-color: #ccc;
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+}
+
+button.primary,
+a.button.primary {
+  background-color: #0055aa;
+  color: #fff;
+  border-color: #004499;
+}
+
+textarea {
+  resize: none;
+}
+
+.ReactTags__wrap input {
+  width: auto;
+}
+
+.ReactTags__tag {
+  background-color: #dedede;
+  color: #222;
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+  margin-right: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.ReactTags__tagInput {
+  width: auto;
+  display: inline-block;
+}
+
+.ReactTags__tagInputField {
+  border: none;
+  margin: 0;
+  padding: 0.2rem 0rem;
+}
+
+.ReactTags__tagInputField:focus {
+  outline: none;
+}
+
+.ReactTags__remove {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: red;
+}
